@@ -1,0 +1,218 @@
+#navbarSupportedContent > ul > li > a {
+	  margin-left: 20px;
+  }
+
+section {
+	margin-bottom: 30px;
+}
+
+  .section_divider {
+	  display: flex;
+	  justify-content: center;
+  }
+
+
+.services-icons {
+	font-size: 40px;
+	color: lawngreen;
+}
+
+
+  .section_divider span {
+	  padding: 45px 2px;
+	  //background: black;
+  }
+
+  #navbarSupportedContent > ul > li:nth-child(7) > a {
+	  border: 3.5px solid lawngreen;
+	  padding: 4px 30px;
+	  color: white;
+  }
+
+  .css-selector {
+	background: linear-gradient(270deg, #77fa00, #24cf03, #1b7d08, #bcff00);
+	background-size: 800% 800%;
+
+	-webkit-animation: AnimationName 30s ease infinite;
+	-moz-animation: AnimationName 30s ease infinite;
+	animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+
+
+/*MAIN SKILLS*/
+
+.skills {
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.chart {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*MAIN SKILLS*/
+
+
+/* vertical line */
+.bottom-corner::after {
+  content:'';
+  position: absolute;
+  width: 8px;
+  height: 50%;
+  bottom: 0;
+  right:0;
+	
+background: linear-gradient(270deg, #77fa00, #24cf03, #1b7d08, #bcff00);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+ 
+}
+
+
+/* horizontal line */
+.bottom-corner::before {
+  content:'';
+  position: absolute;
+  width: 50%;
+  height: 8px;
+  bottom: 0;
+  right:0;
+	
+background: linear-gradient(270deg, #77fa00, #24cf03, #1b7d08, #bcff00);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+
+
+
+/* vertical line */
+.corner-border::after {
+  content:'';
+  position: absolute;
+  width: 8px;
+  height: 50%;
+  top: 0;
+  left:-0;
+	
+background: linear-gradient(270deg, #77fa00, #24cf03, #1b7d08, #bcff00);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+ 
+}
+
+/* horizontal line */
+.corner-border::before{
+  content:'';
+  position: absolute;
+  width: 50%;
+  height: 8px;
+  top: 0;
+  left:-0;
+	
+background: linear-gradient(270deg, #77fa00, #24cf03, #1b7d08, #bcff00);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+ 
+}
+
+
+
+
+
+
+
+
+
+#wrapper {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  /*height: 80vh;
+  min-height:20em;*/
+  width:80%;
+  margin:0 auto;
+	justify-content: center;
+  
+}
+.innerdiv{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  outline: none;
+}
+svg {
+  width:100%
+}
+circle {
+  fill: none;
+  stroke-width: 3;
+  stroke: #24303a;
+}
+path {
+  fill: transparent;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+#aPath {
+  stroke: lawngreen;
+}
+#bPath {
+  stroke: lawngreen;
+}
+#gPath {
+  stroke: lawngreen;
+}
+
+text {
+  dominant-baseline: central;
+  text-anchor: middle;
+  font-size: 5px;
+  fill: Linen;
+}
+
+@media only screen and (min-width:480px) {
+  #wrapper {
+  display: flex;
+  flex-direction:row;
+  height: 60vh;
+  min-height:20em;
+}
