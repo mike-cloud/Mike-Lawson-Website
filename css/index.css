@@ -23,7 +23,7 @@ section {
 	  //background: black;
   }
 
-  #navbarSupportedContent > ul > li:nth-child(7) > a {
+  .hire_me {
 	  border: 3.5px solid lawngreen;
 	  padding: 4px 30px;
 	  color: white;
